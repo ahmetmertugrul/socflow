@@ -1,15 +1,3 @@
-"use client";
-
-import { Metadata } from "next";
-import { MainLayout } from "@/components/layout/main-layout";
-import { ContentCalendar } from "@/components/calendar/content-calendar";
-
-export default function CalendarPage() {
-  return (
-    <MainLayout>
-      <div className="container py-6 px-1 md:px-4">
-        <ContentCalendar />
-      </div>
-    </MainLayout>
-  );
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:93013d1cdedbad172190015f1cce727fb650abf47bac1fafe0fbe54eeef78aa8
+size 372

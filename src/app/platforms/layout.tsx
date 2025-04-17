@@ -1,18 +1,3 @@
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "SocFlow - Platform Login",
-  description: "Connect your social media accounts to SocFlow",
-};
-
-export default function PlatformsLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <div className="flex min-h-screen flex-col">
-      <main className="flex-1">{children}</main>
-    </div>
-  );
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f490f3739a476a062e7a7a06306b0b24b852abd71ff41c8fb566edbd0a69d0d
+size 395

@@ -1,29 +1,3 @@
-"use client";
-
-import { ReactNode } from 'react';
-import { Header } from './header';
-import { Sidebar } from './sidebar';
-import { useTheme } from '@/providers/theme-context';
-
-interface MainLayoutProps {
-  children: ReactNode;
-  showSidebar?: boolean;
-}
-
-export function MainLayout({ children, showSidebar = true }: MainLayoutProps) {
-  const { theme } = useTheme();
-  
-  return (
-    <div className="flex flex-col h-screen overflow-hidden">
-      <Header />
-      <div className="flex flex-1 overflow-hidden">
-        {showSidebar && <Sidebar />}
-        <div className={`flex-1 overflow-auto ${theme === 'dark' ? 'dark' : ''}`}>
-          <main className="bg-background text-foreground h-full transition-colors duration-200">
-            {children}
-          </main>
-        </div>
-      </div>
-    </div>
-  );
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6ecb6c8f6bcc4f292b6eafe7c9e3d2014d83918d44774ac18cda42cb60dc0e2
+size 816

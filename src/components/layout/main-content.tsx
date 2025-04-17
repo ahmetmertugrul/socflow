@@ -1,19 +1,3 @@
-"use client";
-
-import { useTheme } from '@/providers/theme-context';
-
-interface MainContentProps {
-  children: React.ReactNode;
-}
-
-export function MainContent({ children }: MainContentProps) {
-  const { theme } = useTheme();
-  
-  return (
-    <main className={`flex-1 p-6 ${theme === 'dark' ? 'dark' : ''}`}>
-      <div className="bg-background text-foreground rounded-lg p-4 min-h-[calc(100vh-120px)] transition-colors duration-200">
-        {children}
-      </div>
-    </main>
-  );
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5171c68f7e6c708d5bc442860b7a6a47b404126bcfd0c6e8b5d740a29de97cb3
+size 486

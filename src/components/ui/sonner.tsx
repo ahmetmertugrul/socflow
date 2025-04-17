@@ -1,25 +1,3 @@
-"use client"
-
-import { useTheme } from "next-themes"
-import { Toaster as Sonner, ToasterProps } from "sonner"
-
-const Toaster = ({ ...props }: ToasterProps) => {
-  const { theme = "system" } = useTheme()
-
-  return (
-    <Sonner
-      theme={theme as ToasterProps["theme"]}
-      className="toaster group"
-      style={
-        {
-          "--normal-bg": "var(--popover)",
-          "--normal-text": "var(--popover-foreground)",
-          "--normal-border": "var(--border)",
-        } as React.CSSProperties
-      }
-      {...props}
-    />
-  )
-}
-
-export { Toaster }
+version https://git-lfs.github.com/spec/v1
+oid sha256:29b9b6311ade1a1c5d6ceb87e6e7b79a19ec7e0bc3c0d684bfe570aadeec41e2
+size 589

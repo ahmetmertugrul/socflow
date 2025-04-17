@@ -1,18 +1,3 @@
-import Link from 'next/link';
-
-export function Footer() {
-  return (
-    <footer className="border-t py-4 text-sm text-muted-foreground bg-background">
-      <div className="container flex flex-col md:flex-row justify-between items-center gap-4">
-        <div>
-          <span>&copy; {new Date().getFullYear()} SocFlow. All rights reserved.</span>
-        </div>
-        <div className="flex gap-6">
-          <Link href="/terms" className="hover:text-foreground transition-colors">Terms</Link>
-          <Link href="/privacy" className="hover:text-foreground transition-colors">Privacy</Link>
-          <Link href="/contact" className="hover:text-foreground transition-colors">Contact</Link>
-        </div>
-      </div>
-    </footer>
-  );
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f476c80fbf75167e808d1b574ac144a9952d723de2b5b2c07f2046fdb513910e
+size 760
